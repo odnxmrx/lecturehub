@@ -1,7 +1,7 @@
 VERSION 5.00
 Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Begin VB.Form LectureHubFormMain 
-   Caption         =   "Lecture Hub"
+   Caption         =   "Lecture Hub Project"
    ClientHeight    =   7905
    ClientLeft      =   165
    ClientTop       =   810
@@ -31,6 +31,15 @@ Begin VB.Form LectureHubFormMain
    End
    Begin VB.CommandButton AddReadLater 
       Caption         =   "Add To Read Later"
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   9480
       TabIndex        =   1
@@ -39,6 +48,15 @@ Begin VB.Form LectureHubFormMain
    End
    Begin VB.CommandButton AddFavBtn 
       Caption         =   "Save To Favorites"
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   9480
       TabIndex        =   0
@@ -47,6 +65,15 @@ Begin VB.Form LectureHubFormMain
    End
    Begin VB.Label SubTitleLabel 
       Caption         =   "Browse our books collection:"
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   12
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   375
       Left            =   600
       TabIndex        =   4
@@ -54,7 +81,20 @@ Begin VB.Form LectureHubFormMain
       Width           =   3015
    End
    Begin VB.Label TitleLabel 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      BackStyle       =   0  'Transparent
       Caption         =   "Lecture Hub"
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   14.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H80000008&
       Height          =   375
       Left            =   720
       TabIndex        =   3
