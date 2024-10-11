@@ -8,7 +8,6 @@ Begin VB.Form BookDetailForm
    LinkTopic       =   "Form1"
    ScaleHeight     =   7065
    ScaleWidth      =   10950
-   StartUpPosition =   3  'Windows Default
    Begin VB.TextBox txtDescription 
       Height          =   1815
       Left            =   2040
